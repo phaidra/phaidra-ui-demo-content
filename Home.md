@@ -8,6 +8,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc arcu, maxim
 # Dynamic test
 
 <jsonld-wrapper :pid="'o:2044651'"></jsonld-wrapper>
+
 <script>
 
     __nuxt.__vue__.component('jsonld-wrapper', {
