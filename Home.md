@@ -9,7 +9,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc arcu, maxim
 
 <jsonld-wrapper :pid="'o:2044651'"></jsonld-wrapper>
 <script>
-    __nuxt.use(PhaidraVueComponents)
 
     __nuxt.component('jsonld-wrapper', {
         name: 'jsonld-wrapper',
