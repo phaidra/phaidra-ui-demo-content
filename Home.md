@@ -7,7 +7,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc arcu, maxim
 
 # Dynamic test
 
-<jsonld-wrapper :pid="'o:1'"></jsonld-wrapper>
+<jsonld-wrapper :pid="'o:2044651'"></jsonld-wrapper>
 <script>
     Vue.use(PhaidraVueComponents)
 
@@ -59,15 +59,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc arcu, maxim
             }
         },
                                 mounted: function () {
-            this.$store.commit('setInstanceApi', 'https://services.phaidra.bibliothek.uni-ak.ac.at/api')
-            this.$store.commit('setInstancePhaidra', 'phaidra.bibliothek.uni-ak.ac.at')
+            this.$store.commit('setInstanceApi', 'https://services.phaidra.univie.ac.at/api')
+            this.$store.commit('setInstancePhaidra', 'phaidra.univie.ac.at')
             this.loadDisplay()
         }
     });
 
     new Vue({ 
         el: '#app',
-        vuetify: new Vuetify({ theme: { themes: { light: { primary: '#B10303' } } } }),
+        vuetify: new Vuetify({ theme: { themes: { light: { primary: '#008080' } } } }),
         i18n,
         store,
         data: { 
