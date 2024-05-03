@@ -10,7 +10,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc arcu, maxim
 <jsonld-wrapper :pid="'o:2044651'"></jsonld-wrapper>
 <script>
 
-    __nuxt.component('jsonld-wrapper', {
+    __nuxt.__vue__.component('jsonld-wrapper', {
         name: 'jsonld-wrapper',
         props: {
             pid: String,
