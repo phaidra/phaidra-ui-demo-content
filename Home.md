@@ -11,13 +11,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc arcu, maxim
 <script>
     Vue.use(PhaidraVueComponents)
 
-    const i18n = new VueI18n({
-        locale: 'eng',
-        fallbackLocale: 'eng',
-        silentTranslationWarn: true,
-        messages
-    })
-
     Vue.component('jsonld-wrapper', {
         name: 'jsonld-wrapper',
         props: {
@@ -65,13 +58,4 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc arcu, maxim
         }
     });
 
-    new Vue({ 
-        el: '#app',
-        vuetify: new Vuetify({ theme: { themes: { light: { primary: '#008080' } } } }),
-        i18n,
-        store,
-        data: { 
-            displayjsonld: {}
-        }
-    })
 </script>
