@@ -6,7 +6,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nunc arcu, maxim
 
 
 # Dynamic test
-
+<script src="https://phaidra.bibliothek.uni-ak.ac.at/static/js/vue/vue.min.js"></script>
 <jsonld-wrapper :pid="'o:2044651'"></jsonld-wrapper>
 <script>
 
